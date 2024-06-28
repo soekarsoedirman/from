@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renro</title>
+    <link rel="icon" href="../hh/huh.ico">
+    <style>
+        body{
+            background-color: rgb(214, 206, 206);
+            margin: 0px;
+        }
+
+        .satu{
+            width: 100%;
+            margin-top: auto;
+            padding: 0px;
+            height: 600px;;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .isian{
+            width: 30%;
+            height: auto;
+            background-color: white;
+            padding: 25px;
+        }
+        
+        h1{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        p{
+            font-size: large;
+        }
+
+        input{
+            display: inline-block;
+            width: 98%;
+            height: 30px;
+            border-radius: 3px;
+        }
+
+        input::placeholder{
+            text-align: center;
+        }
+        
+        button{
+            width: 100%;
+            border-radius: 3pxpx;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">
+        <div class="isian">
+            <h1>ENTER YOUR ACOUNT</h1>
+            <form action="get" method="post">
+                <P><input type="text" id="nama" placeholder="User Name"></P>
+                <p><input type="password" id="pasword" placeholder="Password"></p>
+                <p><button type="submit">Log In</button></p>
+                <p><button type="menu">Sign Up</button></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
